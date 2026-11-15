@@ -1,0 +1,17 @@
+Package: kebianos-meta-codecs
+Version: 1.5
+Section: metapackages
+Priority: optional
+Architecture: all
+Depends: gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad,
+ gstreamer1.0-plugins-ugly, gstreamer1.0-libav, libavcodec-extra,
+ ffmpeg, vlc, libgtk-3-0t64, libgtk-4-1, adwaita-icon-theme,
+ breeze-icon-theme, dconf-gsettings-backend
+Recommends: intel-media-va-driver-non-free, intel-microcode,
+ amd64-microcode, unrar, fonts-liberation, fonts-crosextra-carlito,
+ fonts-crosextra-caladea, kde-config-gtk-style-preview, kio-admin
+Suggests: ttf-mscorefonts-installer
+Maintainer: DannyXD300 <danny.mg302@gmail.com>
+Description: Codecs y paquetes extras para KebianOS
+ Metapaquete que instala codecs multimedia, controladores de video,
+ microcodigo y fuentes compatibles con documentos de Office.
