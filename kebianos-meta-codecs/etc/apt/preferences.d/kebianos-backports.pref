@@ -30,3 +30,9 @@ Pin-Priority: 990
 Package: 0ad 0ad-data 0ad-data-common
 Pin: release n=trixie-backports
 Pin-Priority: 990
+
+
+# Dependencias que el kernel y alsa-ucm-conf de backports exigen en version nueva
+Package: linux-base libasound2* alsa-topology-conf
+Pin: release n=trixie-backports
+Pin-Priority: 990
