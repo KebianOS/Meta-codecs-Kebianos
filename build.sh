@@ -1,24 +1,23 @@
 #!/bin/bash
+set -e
+PKG=kebianos-meta-codecs
+cd "$(dirname "$0")"
+ROOT=$PWD
 
-#dpkg-deb -Zxz -z9 -Sextreme --root-owner-group --build calamares-settings-kebianos calamares-settings-kebianos_1.4_amd64.deb
-
-
-ver=$(awk '/^Version:/{print $2; exit}' kebianos-meta-codecs/DEBIAN/control)
+cd "$PKG"
+ver=$(dpkg-parsechangelog -S Version)
 echo "$ver"
 
+dpkg-buildpackage -us -uc -b
+debian/rules clean
+cd "$ROOT"
 
+mkdir -p build
+mv -f ./*.deb build/
+rm -f ./*.buildinfo ./*.changes
 
 if [ "$1" = "-u" ]; then
-    dpkg-deb -Zxz -z9 -Sextreme --root-owner-group --build kebianos-meta-codecs kebianos-meta-codecs_"$ver"_amd64.deb
-    git add .
+    git add -A
     git commit -m "$ver"
     git push origin main
-    mv *.deb build/
-    exit 0
 fi
-
-
-dpkg-deb -Zxz -z9 -Sextreme --root-owner-group --build kebianos-meta-codecs kebianos-meta-codecs_"$ver"_amd64.deb
-
-
-mv *.deb build/
