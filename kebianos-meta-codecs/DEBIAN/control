@@ -1,5 +1,5 @@
 Package: kebianos-meta-codecs
-Version: 1.8
+Version: 1.9
 Section: metapackages
 Priority: optional
 Architecture: all
