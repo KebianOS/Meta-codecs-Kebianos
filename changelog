@@ -4,3 +4,4 @@ Añadido el modulo libgtk3-perl
 (1.9){
 se añadieron paquetes para compatibilidad con Steam
 }
+(1.10){se añadio fonts-dejavu-core porsi acaso y para provar que el tema si tome las fuentes }
