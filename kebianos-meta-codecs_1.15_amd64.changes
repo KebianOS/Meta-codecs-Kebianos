@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 17 Nov 2026 19:00:00 -0500
+Source: kebianos-meta-codecs
+Binary: kebianos-meta-codecs
+Architecture: all
+Version: 1.15
+Distribution: unstable
+Urgency: medium
+Maintainer: DannyXD300 <danny.mg302@gmail.com>
+Changed-By: DannyXD300 <danny.mg302@gmail.com>
+Description:
+ kebianos-meta-codecs - Codecs y paquetes extras para KebianOS
+Changes:
+ kebianos-meta-codecs (1.15) unstable; urgency=medium
+ .
+   * Migrado al formato estandar debian/ (dpkg-buildpackage).
+   * conffiles ahora lo genera debhelper automaticamente.
+Checksums-Sha1:
+ cb30d63be04adb1cd80bea425e8ab0ca908b28cb 2744 kebianos-meta-codecs_1.15_all.deb
+ e89c75a532fec0efe45a197be2782f9249bfff73 5079 kebianos-meta-codecs_1.15_amd64.buildinfo
+Checksums-Sha256:
+ 605e46573f92a02d3440aa666b926ceef572f363c7a99e7016fc95ead9445a25 2744 kebianos-meta-codecs_1.15_all.deb
+ d137a5c9ad6d1ad46ec790f301a5df0e33c6b3a3da7e56c9cf5fe2475b37a3a9 5079 kebianos-meta-codecs_1.15_amd64.buildinfo
+Files:
+ 4e4ff6e07fce2279210fc7b71709bd9c 2744 metapackages optional kebianos-meta-codecs_1.15_all.deb
+ e828948156dc6b17108a086f64b2d89a 5079 metapackages optional kebianos-meta-codecs_1.15_amd64.buildinfo

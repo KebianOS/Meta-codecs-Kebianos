@@ -1,0 +1,32 @@
+# KebianOS: kernel, Mesa y firmware desde trixie-backports.
+# Se usa n= (codename) porque a= vale "stable-backports" en estos repos.
+
+# Kernel + headers + linux-base (misma version)
+Package: linux-image-amd64 linux-headers-amd64 linux-base
+Pin: release n=trixie-backports
+Pin-Priority: 990
+
+# Mesa y sus librerias (amd64 e i386 deben coincidir para Steam)
+Package: mesa-* libgl1-mesa-dri libglx-mesa0 libegl-mesa0 libgbm1 libglapi-mesa libgallium-* libgles2-mesa*
+Pin: release n=trixie-backports
+Pin-Priority: 990
+
+# Firmware (acompana al kernel nuevo)
+Package: firmware-linux firmware-linux-nonfree firmware-amd-graphics firmware-misc-nonfree firmware-intel-graphics firmware-intel-misc firmware-iwlwifi firmware-realtek
+Pin: release n=trixie-backports
+Pin-Priority: 990
+
+# Btrfs y audio (acompanan al kernel nuevo)
+Package: btrfs-progs alsa-ucm-conf alsa-topology-conf libasound2*
+Pin: release n=trixie-backports
+Pin-Priority: 990
+
+# LibreOffice (todos los paquetes deben ir en la misma version)
+Package: libreoffice* python3-uno uno-libs-private ure libuno-*
+Pin: release n=trixie-backports
+Pin-Priority: 990
+
+# 0 A.D. (motor y datos deben ir en la misma version)
+Package: 0ad 0ad-data 0ad-data-common
+Pin: release n=trixie-backports
+Pin-Priority: 990

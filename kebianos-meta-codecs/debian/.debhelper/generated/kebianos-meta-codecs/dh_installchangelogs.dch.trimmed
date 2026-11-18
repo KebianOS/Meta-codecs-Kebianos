@@ -1,0 +1,43 @@
+kebianos-meta-codecs (1.15) unstable; urgency=medium
+
+  * Migrado al formato estandar debian/ (dpkg-buildpackage).
+  * conffiles ahora lo genera debhelper automaticamente.
+
+ -- DannyXD300 <danny.mg302@gmail.com>  Tue, 17 Nov 2026 19:00:00 -0500
+
+kebianos-meta-codecs (1.14) unstable; urgency=medium
+
+  * Se elimino el repositorio de Element (element-io.list y su llave).
+
+ -- DannyXD300 <danny.mg302@gmail.com>  Tue, 17 Nov 2026 17:34:37 -0500
+
+kebianos-meta-codecs (1.13) unstable; urgency=medium
+
+  * Se anadio el repo de Element.
+  * wget y apt-transport-https pasan a Depends (se elimina el postinst).
+
+ -- DannyXD300 <danny.mg302@gmail.com>  Tue, 17 Nov 2026 17:28:42 -0500
+
+kebianos-meta-codecs (1.11) unstable; urgency=medium
+
+  * Se anadio element como app para la comunidad.
+
+ -- DannyXD300 <danny.mg302@gmail.com>  Tue, 17 Nov 2026 16:45:22 -0500
+
+kebianos-meta-codecs (1.10) unstable; urgency=medium
+
+  * Se anadio fonts-dejavu-core, para probar que el tema tome las fuentes.
+
+ -- DannyXD300 <danny.mg302@gmail.com>  Tue, 17 Nov 2026 13:50:58 -0500
+
+kebianos-meta-codecs (1.9) unstable; urgency=medium
+
+  * Se anadieron paquetes para compatibilidad con Steam.
+
+ -- DannyXD300 <danny.mg302@gmail.com>  Tue, 17 Nov 2026 13:31:54 -0500
+
+kebianos-meta-codecs (1.6) unstable; urgency=medium
+
+  * Se anadio el modulo libgtk3-perl.
+
+ -- DannyXD300 <danny.mg302@gmail.com>  Sun, 15 Nov 2026 09:46:17 -0500
