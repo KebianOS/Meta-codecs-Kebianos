@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 20 Nov 2026 10:43:00 -0500
+Source: kebianos-meta-codecs
+Binary: kebianos-meta-codecs
+Architecture: all
+Version: 1.19
+Distribution: stable
+Urgency: medium
+Maintainer: DannyXD300 <danny.mg302@gmail.com>
+Changed-By: Daniel <danny.mg302@gmail.com>
+Description:
+ kebianos-meta-codecs - Codecs y paquetes extras para KebianOS
+Changes:
+ kebianos-meta-codecs (1.19) stable; urgency=medium
+ .
+   * Se arreglo el problema con los paquetes, ahora es usable las actualizaciones a backports
+Checksums-Sha1:
+ 5c03eb800238d3f89969f1b981b9ca13c74c451b 3604 kebianos-meta-codecs_1.19_all.deb
+ 4ae567b4ebacb5a8b30bcc366d92944dc1d8c081 5087 kebianos-meta-codecs_1.19_amd64.buildinfo
+Checksums-Sha256:
+ 07d228b42b7420f68e39699f3ec21f34ba74aa2ac21ac88e0cf8873798f5545e 3604 kebianos-meta-codecs_1.19_all.deb
+ 7877e57697768f8db4af6d593dc3763d569d9293362b1bd1038e496eb1de5558 5087 kebianos-meta-codecs_1.19_amd64.buildinfo
+Files:
+ cc558528c75d233cae6e54ab0e34f60a 3604 metapackages optional kebianos-meta-codecs_1.19_all.deb
+ e958e8b908195b7cdf43d3e224f4f883 5087 metapackages optional kebianos-meta-codecs_1.19_amd64.buildinfo

@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Thu, 19 Nov 2026 12:32:00 -0500
+Source: kebianos-meta-codecs
+Binary: kebianos-meta-codecs
+Architecture: all
+Version: 1.18
+Distribution: unstable
+Urgency: high
+Maintainer: DannyXD300 <danny.mg302@gmail.com>
+Changed-By: Daniel <danny.mg302@gmail.com>
+Description:
+ kebianos-meta-codecs - Codecs y paquetes extras para KebianOS
+Changes:
+ kebianos-meta-codecs (1.18) unstable; urgency=high
+ .
+   * A ver si esta ves si deja la puta madre
+Checksums-Sha1:
+ aa918acb59f6cb6d26a9f7c1a28c80dc7d50e544 3528 kebianos-meta-codecs_1.18_all.deb
+ 21a505ed357ab4b539b58a26ba317666ee860f27 5087 kebianos-meta-codecs_1.18_amd64.buildinfo
+Checksums-Sha256:
+ 8e22c8f39990d84954b67fb838318c6ad75456ff0bbfbdf419c485960c6a94ba 3528 kebianos-meta-codecs_1.18_all.deb
+ 610489b0ba58c2725549692909f4e2f047bbd50319fb4e412bb1177e8dfc1c24 5087 kebianos-meta-codecs_1.18_amd64.buildinfo
+Files:
+ 877fbaa61e1530ee25d2f7518feb5189 3528 metapackages optional kebianos-meta-codecs_1.18_all.deb
+ 9c6e1367255959f72e9847eceafd7577 5087 metapackages optional kebianos-meta-codecs_1.18_amd64.buildinfo

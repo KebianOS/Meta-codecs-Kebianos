@@ -1,13 +1,20 @@
 # KebianOS: kernel, Mesa y firmware desde trixie-backports.
 # Se usa n= (codename) porque a= vale "stable-backports" en estos repos.
 
+
+# at-spi se queda en stable (at-spi2-core depende de version exacta)
+Package: libatspi2.0-0t64 libatspi2.0-0t64:i386 at-spi2-core gir1.2-atspi-2.0
+Pin: release n=trixie
+Pin-Priority: 995
+
+
 # Kernel + headers + linux-base (misma version)
 Package: linux-image-amd64 linux-headers-amd64 linux-base
 Pin: release n=trixie-backports
 Pin-Priority: 990
 
 # Mesa y sus librerias (amd64 e i386 deben coincidir para Steam)
-Package: mesa-* libgl1-mesa-dri libglx-mesa0 libegl-mesa0 libgbm1 libglapi-mesa libgallium-* libgles2-mesa*
+Package: mesa-* libgl1-mesa-dri libglx-mesa0 libegl-mesa0 libgbm1 libglapi-mesa libgles2-mesa* libelf1t64 libwayland-client0 libwayland-cursor0 libwayland-egl1 libwayland-server0 libxkbcommon0 libxkbcommon-x11-0 libxkbregistry0
 Pin: release n=trixie-backports
 Pin-Priority: 990
 
@@ -28,5 +35,27 @@ Pin-Priority: 990
 
 # 0 A.D. (motor y datos deben ir en la misma version)
 Package: 0ad 0ad-data 0ad-data-common
+Pin: release n=trixie-backports
+Pin-Priority: 990
+
+
+# Mesa i386 (debe coincidir con amd64 para Steam)
+Package: libgl1-mesa-dri:i386 libglx-mesa0:i386 libegl-mesa0:i386 libgbm1:i386 libglapi-mesa:i386 mesa-libgallium:i386 mesa-vulkan-drivers:i386 libgles2-mesa:i386
+Pin: release n=trixie-backports
+Pin-Priority: 990
+
+#Si no funciona me mato :D
+Package: libelf1t64:i386 libgl1-mesa-dri:i386 libglx-mesa0:i386 libegl-mesa0:i386 libgbm1:i386 libglapi-mesa:i386 mesa-libgallium:i386 mesa-vulkan-drivers:i386
+Pin: release n=trixie-backports
+Pin-Priority: 990
+
+# Audio i386 (libasound2* de amd64 va en backports; Multi-Arch same exige igualdad)
+Package: libasound2t64:i386 libasound2-data libasound2-plugins:i386
+Pin: release n=trixie-backports
+Pin-Priority: 990
+
+# Espejo i386 de las librerias Multi-Arch same que amd64 toma de backports.
+# Multi-Arch same exige que :amd64 y :i386 tengan la misma version (Steam usa i386).
+Package: libasound2t64:i386 libatopology2t64:i386 libbrlapi0.8:i386 libcurl3t64-gnutls:i386 libcurl4-gnutls:i386 libddcutil5:i386 libdebuginfod1t64:i386 libdw1t64:i386 libefiboot1t64:i386 libefivar1t64:i386 libegl-mesa0:i386 libelf1t64:i386 libgbm1:i386 libgl1-mesa-dri:i386 libgl2ps1.4:i386 libglx-mesa0:i386 libhwloc-plugins:i386 libhwloc15:i386 liblouis20:i386 libnghttp3-9:i386 libngtcp2-16:i386 libngtcp2-crypto-gnutls8:i386 libspeechd-module0:i386 libspeechd2:i386 libtalloc2:i386 libtdb1:i386 libtevent0t64:i386 libwayland-client0:i386 libwayland-cursor0:i386 libwayland-egl1:i386 libwayland-server0:i386 libwbclient0:i386 libxapian30:i386 libxkbcommon-x11-0:i386 libxkbcommon0:i386 libxkbregistry0:i386 mesa-libgallium:i386 mesa-va-drivers:i386 mesa-vdpau-drivers:i386 mesa-vulkan-drivers:i386
 Pin: release n=trixie-backports
 Pin-Priority: 990

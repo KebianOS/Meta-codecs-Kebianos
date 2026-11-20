@@ -1,3 +1,28 @@
+kebianos-meta-codecs (1.19) stable; urgency=medium
+
+  * Se arreglo el problema con los paquetes, ahora es usable las actualizaciones a backports
+
+ -- Daniel <danny.mg302@gmail.com>  Fri, 20 Nov 2026 10:43:00 -0500
+
+kebianos-meta-codecs (1.18) unstable; urgency=high
+
+  * A ver si esta ves si deja la puta madre
+
+ -- Daniel <danny.mg302@gmail.com>  Thu, 19 Nov 2026 12:32:00 -0500
+
+kebianos-meta-codecs (1.17) stable; urgency=high
+
+  * Se corrigio el bloque de paquetes para la instalacion de steam
+
+ -- Daniel <danny.mg302@gmail.com>  Thu, 19 Nov 2026 12:25:00 -0500
+
+kebianos-meta-codecs (1.16) stable; urgency=low
+
+  * Se añadieron los lib* y mesa* para abarcar mas terreno en drivers para steam
+  * Estoy aprendiendo los prefijos de los dias de la semana, por lo que este cambio se hizo el 19/11/2026 jejje
+
+ -- Daniel <danny.mg302@gmail.com>  Thu, 19 Nov 2026 23:50:00 -0500
+
 kebianos-meta-codecs (1.15) unstable; urgency=medium
 
   * Migrado al formato estandar debian/ (dpkg-buildpackage).

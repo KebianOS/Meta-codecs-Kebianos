@@ -2,16 +2,16 @@ Format: 1.0
 Source: kebianos-meta-codecs
 Binary: kebianos-meta-codecs
 Architecture: all
-Version: 1.15
+Version: 1.18
 Checksums-Md5:
- 4e4ff6e07fce2279210fc7b71709bd9c 2744 kebianos-meta-codecs_1.15_all.deb
+ 877fbaa61e1530ee25d2f7518feb5189 3528 kebianos-meta-codecs_1.18_all.deb
 Checksums-Sha1:
- cb30d63be04adb1cd80bea425e8ab0ca908b28cb 2744 kebianos-meta-codecs_1.15_all.deb
+ aa918acb59f6cb6d26a9f7c1a28c80dc7d50e544 3528 kebianos-meta-codecs_1.18_all.deb
 Checksums-Sha256:
- 605e46573f92a02d3440aa666b926ceef572f363c7a99e7016fc95ead9445a25 2744 kebianos-meta-codecs_1.15_all.deb
+ 8e22c8f39990d84954b67fb838318c6ad75456ff0bbfbdf419c485960c6a94ba 3528 kebianos-meta-codecs_1.18_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Tue, 17 Nov 2026 19:20:04 -0500
+Build-Date: Fri, 20 Nov 2026 10:40:34 -0500
 Installed-Build-Depends:
  autoconf (= 2.72-3.1),
  automake (= 1:1.17-4),
@@ -87,7 +87,7 @@ Installed-Build-Depends:
  libdebconfclient0 (= 0.280),
  libdebhelper-perl (= 13.24.2),
  libdpkg-perl (= 1.22.22),
- libelf1t64 (= 0.192-4),
+ libelf1t64 (= 0.196-1~bpo13+2),
  libfile-stripnondeterminism-perl (= 1.14.1-2),
  libgcc-14-dev (= 14.2.0-19),
  libgcc-s1 (= 14.2.0-19),
@@ -172,4 +172,4 @@ Environment:
  LC_PAPER="es_CO.UTF-8"
  LC_TELEPHONE="es_CO.UTF-8"
  LC_TIME="es_CO.UTF-8"
- SOURCE_DATE_EPOCH="1794960000"
+ SOURCE_DATE_EPOCH="1795109520"
