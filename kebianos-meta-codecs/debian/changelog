@@ -1,3 +1,9 @@
+kebianos-meta-codecs (1.20) stable; urgency=medium
+
+  * Paquetes minimos solo nesesario  (exeptuando 0AD)
+
+ -- Daniel <danny.mg302@gmail.com>  Sat, 21 Nov 2026 12:34:00 -0500
+
 kebianos-meta-codecs (1.19) stable; urgency=medium
 
   * Se arreglo el problema con los paquetes, ahora es usable las actualizaciones a backports

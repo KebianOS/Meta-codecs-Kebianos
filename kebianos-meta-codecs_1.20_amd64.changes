@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sat, 21 Nov 2026 12:34:00 -0500
+Source: kebianos-meta-codecs
+Binary: kebianos-meta-codecs
+Architecture: all
+Version: 1.20
+Distribution: stable
+Urgency: medium
+Maintainer: DannyXD300 <danny.mg302@gmail.com>
+Changed-By: Daniel <danny.mg302@gmail.com>
+Description:
+ kebianos-meta-codecs - Codecs y paquetes extras para KebianOS
+Changes:
+ kebianos-meta-codecs (1.20) stable; urgency=medium
+ .
+   * Paquetes minimos solo nesesario  (exeptuando 0AD)
+Checksums-Sha1:
+ 4e9213167a8349df6f1563b99403346c95b748fe 2984 kebianos-meta-codecs_1.20_all.deb
+ e0aaf621fbe5133ad561917fa77581239e5f0a0c 4971 kebianos-meta-codecs_1.20_amd64.buildinfo
+Checksums-Sha256:
+ 5749262c2693e657bd20cf9c2dc43e2f0daac685bdf4b33f500eb460e8841c38 2984 kebianos-meta-codecs_1.20_all.deb
+ 0d73f90e3854cec67a6cc5ea4a46f5e77d1d12640de67652a6f369786b13e7f3 4971 kebianos-meta-codecs_1.20_amd64.buildinfo
+Files:
+ 4a79581fb4ab570340bf4dd1f351c680 2984 metapackages optional kebianos-meta-codecs_1.20_all.deb
+ 6d3515afe98ca5e48cd78a0e3c818049 4971 metapackages optional kebianos-meta-codecs_1.20_amd64.buildinfo
